@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+}
+
+h1{
+    color:white;
+}
+
+button, a{
+    padding: 1vw 5vh;
+    color: white;
+    background-color: #9933ff;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+button:hover, a:hover{
+    background-color: #6600ff;
+}
